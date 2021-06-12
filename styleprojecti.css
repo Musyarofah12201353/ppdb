@@ -1,0 +1,186 @@
+body {
+   padding: 2px;
+   margin: 8px;
+   font-family: 'Helvetica'sans-serif;
+   font-size: 18px;
+   background-repeat: repeat-y;
+   background-size: 140%;
+}
+
+.center {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.card-body {
+   margin: 20px;
+   padding: 10px;
+
+}
+
+table {
+   border-spacing: 20px;
+   border: 0px solid black;
+}
+
+td {
+   height: 35px;
+   width: 50%;
+}
+
+.bar {
+   width: 100%;
+   max-width: 300px;
+   height: 25px;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+.contener {
+   width: 80%;
+   margin: 0 auto;
+}
+
+.contener:after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+header h1 {
+   float: left;
+   padding: 15px 0;
+   color: #FF6347;
+}
+
+header ul {
+   float: right;
+}
+
+header ul li {
+   display: inline-block;
+}
+
+header ul li a {
+   padding: 25px 20px;
+   display: inline-block;
+}
+
+header ul li a:hover {
+   background-color: #483D8B;
+   color: #fff;
+}
+
+.active {
+   background-color: #483D8B;
+   color: #fff;
+}
+
+.banner {
+   height: 50px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+   position: relative;
+   display: flex;
+   justify-content: center;
+}
+
+.banner:after {
+   content: '';
+   display: block;
+   position: absolute;
+   width: 400px;
+   height: 200px;
+   background-color: rgba(0, 255, 254, .6);
+}
+
+.banner h2 {
+   color: rgb(22, 5, 5);
+   z-index: 1;
+   padding: 20px 25px;
+}
+
+.centered {
+   margin-bottom: 40px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 20%;
+}
+
+section {
+   padding: 50px 0;
+}
+
+section h3 {
+   text-align: center;
+   padding: 60px 0;
+   color: black;
+   margin-bottom: 20px;
+}
+
+.about {
+   padding-bottom: 100px;
+}
+
+.abouting {
+   color: black;
+   font-weight: 800;
+   word-spacing: 2px;
+   line-height: 25px;
+   text-align: center;
+}
+
+.selesai_daftar {
+   margin: 20px;
+   padding: 3px 0;
+   color: aqua;
+   font-size: 30px;
+   font-family: 'Helvetica', sans-serif;
+}
+
+.backhome {
+   position: absolute;
+   right: 1000px;
+   margin: 0px;
+   color: aqua;
+   font-size: 25px;
+   font-family: 'Helvetica'sans-serif;
+
+}
+
+h5 {
+   font-family: 'Helvetica'sans-serif;
+   font-size: 30px;
+}
+
+.captcha_salah {
+   position: absolute;
+   right: 900px;
+   margin: 20px;
+   padding: 3px 0;
+   color: red;
+   font-size: 30px;
+   font-family: 'Helvetica', sans-serif;
+}
+
+.wrong_cap {
+   position: absolute;
+   right: 940px;
+   color: red;
+   font-size: 25px;
+   font-family: 'Helvetica', sans-serif;
+}
+
+.kapca {
+   font-size: 30px;
+   font-family: 'Helvetica', sans-serif;
+}
+
+.cs {
+   font-size: 20px;
+   font-family: 'Helvetica', sans-serif;
+}
